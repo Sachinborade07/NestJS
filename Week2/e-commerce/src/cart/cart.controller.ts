@@ -5,7 +5,9 @@ import { CartItem } from 'src/dto/cart_item.dto';
 
 @Controller('cart')
 export class CartController {
-    constructor(private readonly cartService: CartService) { }
+    constructor(private readonly cartService: CartService) {
+        console.log("This is CART");
+    }
 
     @Post()
     add(@Body() body: CartItem): { message: string; cart: CartItem[] } {
