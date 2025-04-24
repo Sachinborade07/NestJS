@@ -4,7 +4,7 @@ Task: Create a route GET /users/:id/role/:role where:
 ● If role=user, return filtered user data.
 ● Use Param decorator and conditional logic in the service.
 
-users.services.ts -> Week2/ass2/src/users/users.service.ts
+users.services.ts -> [Week2/ass2/src/users/users.service.ts](https://github.com/Sachinborade07/NestJS/blob/4df68152f2a6ca3360266ad7a4781d6c9d5d6bd0/Week2/ass2/src/users/users.service.ts)
 users.controller.ts -> Week2/ass2/src/users/users.controller.ts
 
 ## 2. Custom Decorator
